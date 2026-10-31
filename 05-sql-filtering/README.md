@@ -51,11 +51,11 @@ SELECT *
 FROM employees 
 WHERE department = 'Finance' OR department = 'Sales';
 ```
-6. Employees Outside the IT Department
-
+### 6. Employees Outside the IT Department
 Filtered out IT personnel to audit non-IT employee records:
-SQL
 
+```sql
 SELECT * 
 FROM employees 
 WHERE NOT department = 'IT';
+```
